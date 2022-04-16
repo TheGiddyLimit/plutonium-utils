@@ -1,6 +1,6 @@
 {
 	"name": "plutonium-utils",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Shared utilities for the Plutonium ecosystem.",
 	"repository": {
 		"type": "git",
