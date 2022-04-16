@@ -1,0 +1,31 @@
+{
+	"name": "plutonium-utils",
+	"version": "0.1.0",
+	"description": "Shared utilities for the Plutonium ecosystem.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/TheGiddyLimit/plutonium-utils.git"
+	},
+	"author": "Giddy",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/TheGiddyLimit/plutonium-utils/issues"
+	},
+	"homepage": "https://github.com/TheGiddyLimit/plutonium-utils#readme",
+	"type": "module",
+	"main": "lib/Api.js",
+	"files": [
+		"lib"
+	],
+	"directories": {
+		"lib": "./lib"
+	},
+	"scripts": {
+		"test": "npm run test:js",
+		"test:js": "eslint lib",
+		"lint:js": "eslint lib --fix"
+	},
+	"devDependencies": {
+		"eslint": "^8.11.0"
+	}
+}
