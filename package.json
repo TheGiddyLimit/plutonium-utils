@@ -22,8 +22,9 @@
 	},
 	"scripts": {
 		"test": "npm run test:js",
+		"lint": "npm run lint:js",
 		"test:js": "eslint lib",
-		"lint:js": "eslint lib --fix"
+		"lint:js": "npm run test:js -- --fix"
 	},
 	"devDependencies": {
 		"eslint": "^8.11.0"
