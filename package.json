@@ -28,5 +28,8 @@
 	},
 	"devDependencies": {
 		"eslint": "^8.11.0"
+	},
+	"dependencies": {
+		"classic-level": "^1.4.1"
 	}
 }
